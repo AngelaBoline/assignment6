@@ -72,10 +72,8 @@ to both variables and display the appropriate message in the console */
 for(i=0; i<speechesArray.length; i +=1){
   if(speechesArray[i].year < oldestYear) {
     oldestYear = speechesArray[i].year;
-    console.log(speechesArray[i].author + " This is the oldest speech on the page.");
   } else if(speechesArray[i].year > newestYear) {
     newestYear = speechesArray[i].year;
-    console.log(speechesArray[i].author + " This is the newest speech on the page.");
   }   
 
 
